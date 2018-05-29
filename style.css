@@ -1,0 +1,66 @@
+.mainBox {
+    height: 500px;
+    width: 500px;
+	background:red;
+}
+.leftSlice {
+    position: absolute;
+    margin-top:0px;
+    width: 500px;
+    height: 500px;
+    mask: url("leftSlice.svg");
+    -webkit-mask-image: url("leftSlice.svg");
+    -webkit-mask-repeat: no-repeat;
+}
+
+.leftSlice:hover {
+        mask: none;
+        -webkit-mask-image: none;
+}
+
+.topSlice {
+    position: absolute;
+    margin-top:0px;
+    width: 500px;
+    height: 500px;
+    mask: url("topSlice.svg");
+    -webkit-mask-image: url("topSlice.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: top;
+}
+
+.topSlice:hover {
+        mask: none;
+        -webkit-mask-image: none;
+}
+.rightSlice {
+    position: absolute;
+    margin-top:0px;
+    width: 500px;
+    height: 500px;
+    mask: url("rightSlice.svg");
+    -webkit-mask-image: url("rightSlice.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: right;
+}
+
+.rightSlice:hover {
+        mask: none;
+        -webkit-mask-image: none;
+}
+
+.bottomSlice {
+    position: absolute;
+    margin-bottom:0px;
+    width: 500px;
+    height: 500px;
+    mask: url("bottomSlice.svg");
+    -webkit-mask-image: url("bottomSlice.svg");
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: bottom;
+}
+
+.bottomSlice:hover {
+        mask: none;
+        -webkit-mask-image: none;
+}
